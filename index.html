@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8ef37a7e4a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Revolution&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css"
+</head>
+<!--navbar-->
+<body class="gb-grey">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram lead"></i></a>
+           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/100px-Instagram_logo.svg.png" >
+              </li>
+              <button type="button" class="btn bg-success text-light m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Create a new post
+                        </button>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-gear"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--navbar--> 
+      <!--prueba boton-->
+      <ul class="nav nav-tabs justify-content-center border-white mt-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active border-white" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                <i class="fa fa-border-all" aria-hidden="true"></i>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link border-white" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false" tabindex="-1">
+                <i class="fa fa-square" aria-hidden="true"></i>
+            </button>
+        </li>
+    </ul>
+
+
+          <!--Card-->    
+              <section>
+       <div class="card" style="width: 35rem; margin: 10px auto;">
+                    <div class="card-header d-flex">                      
+                        <h4 style="padding-right:260px;">My crazy dog Snack</h4>                        
+                        <p>08/26</p>                      
+                    </div>
+                    <img src="https://www.fundacion-affinity.org/sites/default/files/los-10-sonidos-principales-del-perro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p><strong>219 likes</strong></p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    </div>
+                </div>
+            
+      </section> 
+          <!--Card-->  
+
+
+
+    <!--JavaScript Behavior -->
+
+    <ul class="nav nav-tabs justify-content-center border-white mt-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active border-white" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                <i class="fa fa-border-all"></i>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link border-white" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                <i class="fa fa-square"></i>
+            </button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active m-2" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+            tabindex="0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col p-0 m-2 mt-2">
+                        <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"
+                            class="card-img-top" alt="...">
+                    </div>
+                    <div class="col p-0 m-2 mt-2">
+                        <img src="https://i.picsum.photos/id/911/229/152.jpg?hmac=L_Q0YIov4uuJIMlBAjDZK31I1k_REpVsYpMCY85EV8c"
+                            class="card-img-top" alt="...">
+                    </div>
+                    <div class="col p-0 m-2 mt-2">
+                        <img src="https://i.picsum.photos/id/44/229/152.jpg?hmac=tbkCbHuDKUszr9UteHYkE55kfSHvO3w3xn2WqYln810"
+                            class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col p-0 m-2">
+                        <img src="https://i.picsum.photos/id/244/229/152.jpg?hmac=aihY8o-aLcbcN-o4LoBtx6yrFl3lWX1JqoL6MpymMyI"
+                            class="card-img-top" alt="...">
+                    </div>
+                    <div class="col p-0 m-2">
+                        <img src="https://i.picsum.photos/id/769/229/152.jpg?hmac=0iSmk3Zf43oUkre-sYIXHR4ihKXZ_Tyy65qZLSGzYv0"
+                            class="card-img-top" alt="...">
+                    </div>
+                    <div class="col p-0 m-2">
+                        <img src="https://i.picsum.photos/id/134/229/152.jpg?hmac=FlCj-YaXDL5EzaqI5Q_XpoTgafK3TGDMIWWvixQChuk"
+                            class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col p-0 m-2">
+                        <img src="https://i.picsum.photos/id/674/229/152.jpg?hmac=YENEdsXtDb6iZ4P44UocQCtAKTjn8KfPRBEoHBcu72k"
+                            class="card-img-top" alt="...">
+                    </div>
+                    <div class="col p-0 m-2">
+                        <img src="https://i.picsum.photos/id/1039/229/152.jpg?hmac=zpjETStIeNXWXbEwbOGeG8Fe57apv5B7-xFHV9fzzMs"
+                            class="card-img-top" alt="...">
+                    </div>
+                    <div class="col p-0 m-2">
+                        <img src="https://i.picsum.photos/id/646/229/152.jpg?hmac=AYouvdnTgRy8SlFiK0he2elN0Lidp24L6ld6VGZT4mg"
+                            class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div>
+                <div class="card" style="width: 35rem; margin: 10px auto;">
+                    <div class="card-header d-flex">                      
+                        <h4 style="padding-right:260px;">My crazy dog Snack</h4>                        
+                        <p>08/26</p>                      
+                    </div>
+                    <img src="https://www.fundacion-affinity.org/sites/default/files/los-10-sonidos-principales-del-perro.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p><strong>219 likes</strong></p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 35rem; margin: 10px auto;">
+                    <div class="card-header d-flex">
+                        <h4 style="padding-right:260px;">My crazy dog Spark</h4>
+                        <p>04/09</p>
+                    </div>
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/3WZJKDUPKJCKLNRBMXKSDGLFPM.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p><strong>871 likes</strong></p>
+                        <p class="card-text">Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 35rem; margin: 10px auto;">
+                    <div class="card-header d-flex">
+                        <h4 style="padding-right:260px;">My crazy dog Slack</h4>
+                        <p>06/10</p>
+                    </div>
+                    <img src="https://sc2.elpais.com.uy/files/article_default_content/uploads/2021/12/03/61aa6d3767344.jpeg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p><strong>93 likes</strong></p>
+                        <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JSB close -->
+
+    <!-- Bostrap JvSc -->
+   
+
+
+
+
+
+
+
+
+
+
+
+          
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+      </html>
